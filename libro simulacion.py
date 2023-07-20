@@ -6,7 +6,6 @@ Created on Fri Jul 14 12:32:21 2023
 """
 
 ##ejemplo 5.8 libro simulacion 
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
