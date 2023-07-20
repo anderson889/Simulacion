@@ -73,6 +73,7 @@ fig=px.scatter(df2,x="Grid",y="Presión",animation_frame="Tiempo",color="Grid",s
 
 from dash import Dash, html, dash_table, dcc
 app = Dash(__name__)
+server=app.server
 app.layout = html.Div([
     html.Div(children='BUM BUM, Mira mi grafico'),
     dcc.Graph(figure=fig)
